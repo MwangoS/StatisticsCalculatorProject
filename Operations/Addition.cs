@@ -8,7 +8,7 @@ namespace Operations
         {
             return f + g;
         }
-        public static double Subtract(double f, double g)
+        public static double Sum(double f, double g)
         {
             return f + g;
         }
@@ -19,7 +19,7 @@ namespace Operations
 
             foreach (double a in arrayA)
             {
-                c = Subtract(a, c);
+                c = Sum(a, c);
             }
 
             return c;
