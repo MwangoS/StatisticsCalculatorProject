@@ -8,11 +8,11 @@ namespace Operations
     { 
     public static int Subtract(int f, int g)
     {
-        return f + g;
+        return f - g;
     }
     public static double Subtract(double f, double g)
     {
-        return f + g;
+        return f - g;
     }
 
     public static double Subtract(double[] arrayA)
